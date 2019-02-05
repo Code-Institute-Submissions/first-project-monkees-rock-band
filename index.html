@@ -6,10 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Monkees</title>
 </head>
 <body>
-    
+    <!--------------------------------------------------------- Home Section -->
+    <div id="home">
+        <!--- Navigation -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#home"><img src="/assets/images/monkees-logo.png" alt="monkees logo"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link hvr-glow" href="#home"><span class="menu-item">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-glow" href="#about"><span class="menu-item">About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hvr-glow" href="#tour"><span class="menu-item">Tour</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="media-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="menu-item">Media</span></a>
+                        <div class="dropdown-menu" aria-labelledby="media-menu">
+                            <a class="dropdown-item" href="#audio"><span class="menu-item hvr-glow">Audio</span></a>
+                            <a class="dropdown-item" href="#video"><span class="menu-item hvr-glow">Video</span></a>
+                            <a class="dropdown-item" href="#photos"><span class="menu-item hvr-glow">Photos</span></a>
+                        </div>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link hvr-glow" href="#book"><span class="menu-item">Book us</span></a>
+                    </li>
+                </ul>
+            </div>
+            
+            
+        </nav>
+    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>

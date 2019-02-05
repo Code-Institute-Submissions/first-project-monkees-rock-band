@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+/*-------------------------------------------------------------- Body Section */
+html, body {
+    font-family: 'Open Sans', sans-serif}
+
+/*-------------------------------------------------------------- Home Section */
+/*--- Navigation */
+.bg-dark {
+    background-image: linear-gradient(to right, #505c70, #050517)
+}
+.navbar-brand img {
+    height: 50px;
+}
+.navbar-brand img:hover {
+    opacity: 0.8;
+}
+.nav-item {
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.dropdown-menu, .dropdown-item:hover  {
+    background-color: #b8c2d3;
+}
+.menu-item {
+    padding: 5px 10px;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
