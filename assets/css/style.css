@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:500,700|Raleway:600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Raleway:300,400,500,600');
 
 /*-------------------------------------------------------------- Body Section */
 html, body {
-    font-family: 'Open Sans', sans-serif}
+    font-family: 'Open Sans', sans-serif;
+    
+}
 
 /*-------------------------------------------------------------- Home Section */
 /*--- Navigation */
@@ -45,6 +47,7 @@ html, body {
     text-transform: uppercase;
     text-shadow: 1px 1px 5px #000;
     padding-bottom: 20px;
+    color: #edbb5f;
 }
 .banner-text {
     font-size: 13px;
@@ -75,3 +78,83 @@ html, body {
     background-color: #d3d5d7;
     border-color: #d3d5d7;
 }
+/*------------------------------------------------------------- About Section */
+.heading-large:after {
+    content: '';
+    display: block;
+    width: 100px;
+    border: 2px solid #b40101;
+    margin: 15px auto;
+}
+.heading-large {
+    padding: 40px 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.about-text {
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #4d4d4d;
+    padding: 10px 20px 30px;
+    font-weight: 400;
+}
+.jumbotron-styled {
+    padding: 100px 0;
+    border-radius: 0;
+}
+.member-img {
+    width: 50%;
+}
+.name {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding: 25px 10px 0px;
+    word-spacing: 2px;
+}
+.title {
+    color: #4d4d4d;
+    text-transform: uppercase;
+}
+.fa-quote-left {
+    color: #b40101;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.quote {
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+.indicators-styled {
+    bottom: -70px;
+}
+.indicators-styled li {
+    background-color: rgba(5, 5, 23, 1);
+}
+.indicators-styled .active {
+    background-color: rgba(5, 5, 23, 0.5);
+}
+/*----------------------------------------------------- Media Queries Section */
+@media screen and (min-width: 768px) {
+    .name {
+        margin-top: 20px;
+    }
+    .quote-wrapper {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .quote {
+       padding: 25px; 
+    }
+    .member-img {
+        width: 70%;
+    }
+}
+
