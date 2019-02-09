@@ -207,7 +207,7 @@ html, body {
 /*--- Audio */
 #audio {
     padding-top: 80px;
-    color: white;
+    color: #d3d5d7;
 }
 .album-cover {
     width: 300px;
@@ -266,6 +266,16 @@ html, body {
 }
 
 /*--- Video */
+#video {
+    background-color: rgba(211, 213, 215, 0.6);
+    padding-bottom: 40px;
+}
+.video-player {
+    object-fit: inherit;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
 /*--- Photos */
 /*----------------------------------------------------- Media Queries Section */
 @media screen and (min-width: 576px) {
