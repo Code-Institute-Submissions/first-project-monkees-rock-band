@@ -192,8 +192,83 @@ html, body {
     color: #d3d5d7;
     border-color: green;
 }
+/*------------------------------------------------------------- Media Section */
+#media {
+    background-image: url('/assets/images/bg-img.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.media-bg-overlay {
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*--- Audio */
+#audio {
+    padding-top: 80px;
+    color: white;
+}
+.album-cover {
+    width: 300px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 5px;
+}
+.album-title {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.album-title span {
+    background-color: #edbb5f;
+    color: #050517;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.badge {
+    font-size: small;
+}
+.album-description {
+    font-size: 12px;
+    word-spacing: 1px;
+    width: 300px;
+    margin: 10px auto;
+}
+.hr-styled {
+    background-color: grey;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.song-title {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #cecece;;
+}
+.mark {
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-size: 10px;
+}
+.audio {
+    height: 30px;
+    width: 270px;
+    display: block;
+    border-radius: 5px;
+}
+.btn-album-buy {
+    margin-top: 30px;
+    width: 120px;
+    text-transform: uppercase;
+}
+
+/*--- Video */
+/*--- Photos */
 /*----------------------------------------------------- Media Queries Section */
-@media screen and (min-width:576px) {
+@media screen and (min-width: 576px) {
     .btn-red, .btn-green {
         margin-top: 20px;
     }
@@ -212,6 +287,15 @@ html, body {
     }
     .member-img {
         width: 70%;
+    }
+    .album-title {
+        text-align: left;
+        font-size: 28px;
+        padding-top: 15px;
+    }
+    .album-description {
+        margin-left: 0;
+        font-size: 14px;
     }
 }
 
