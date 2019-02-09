@@ -87,7 +87,7 @@ html, body {
     margin: 15px auto;
 }
 .heading-large {
-    padding: 40px 10px 20px;
+    padding: 50px 10px 40px;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -140,7 +140,64 @@ html, body {
 .indicators-styled .active {
     background-color: rgba(5, 5, 23, 0.5);
 }
+/*-------------------------------------------------------------- Tour Section */
+.tour-container {
+    margin-top: 70px;
+}
+.tour-info div {
+    margin: 20px auto;
+}
+.dates {
+    width: 100px;
+    height: 100px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #505c70, #050517);
+    color: #edbb5f;
+    font-size: 14px;
+    padding-top: 8px;
+    margin: 0 auto;
+    -webkit-box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.92); 
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.92);
+}
+.dates span {
+    font-size: 26px;
+}
+.btn-more-info {
+    width: 250px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 100px auto 50px;
+    padding: 15px;
+    display: block;
+    background-color: #d3d5d7;
+    color: #050517;
+}
+.btn-more-info:hover {
+    background-color: #050517;
+    color: #d3d5d7;
+    border-color: #050517;
+}
+.btn-red, .btn-green {
+    border-radius: 50px;
+    width: 135px;
+    padding: 7px 5px;
+}
+.btn-red:hover {
+    background-color: #b40101;
+    color: #d3d5d7;
+    border-color: #b40101;
+}
+.btn-green:hover {
+    background-color: green;
+    color: #d3d5d7;
+    border-color: green;
+}
 /*----------------------------------------------------- Media Queries Section */
+@media screen and (min-width:576px) {
+    .btn-red, .btn-green {
+        margin-top: 20px;
+    }
+}
 @media screen and (min-width: 768px) {
     .name {
         margin-top: 20px;
