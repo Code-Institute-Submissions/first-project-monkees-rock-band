@@ -277,6 +277,15 @@ html, body {
     margin: 20px auto;
 }
 /*--- Photos */
+#photos {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color: #d3d5d7;
+}
+.gallery-img-1, .gallery-img-2, .gallery-img-3 {
+    display: block;
+    margin: 10px auto;
+}
 /*----------------------------------------------------- Media Queries Section */
 @media screen and (min-width: 576px) {
     .btn-red, .btn-green {
