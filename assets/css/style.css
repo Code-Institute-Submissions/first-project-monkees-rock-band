@@ -156,8 +156,9 @@ html, body {
     font-size: 14px;
     padding-top: 8px;
     margin: 0 auto;
-    -webkit-box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.92); 
-    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.92);
+   -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
 }
 .dates span {
     font-size: 26px;
@@ -194,14 +195,14 @@ html, body {
 }
 /*------------------------------------------------------------- Media Section */
 #media {
-    background-image: url('/assets/images/bg-img.jpg');
+    background-image: url('/assets/images/string-background-image.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .media-bg-overlay {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
 }
 
 /*--- Audio */
@@ -214,6 +215,9 @@ html, body {
     margin: 15px auto;
     display: block;
     border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
 }
 .album-title {
     font-family: 'Raleway', sans-serif;
@@ -267,14 +271,27 @@ html, body {
 
 /*--- Video */
 #video {
-    background-color: rgba(211, 213, 215, 0.6);
+    background-color: rgba(119,119,119,0.2);
+    color: #d3d5d7;
     padding-bottom: 40px;
+}
+.video-container {
+    margin-bottom: 40px;
+}
+.video-title{
+    font-size: 20px;
+    margin-left: 5%;
+    padding-left: 0;
 }
 .video-player {
     object-fit: inherit;
-    width: 80%;
+    max-width: 90%;
+    height: auto;
     display: block;
-    margin: 20px auto;
+    margin: 0px auto;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
 }
 /*--- Photos */
 #photos {
@@ -283,12 +300,19 @@ html, body {
     color: #d3d5d7;
 }
 .gallery-img-1, .gallery-img-2, .gallery-img-3 {
-    display: block;
+    width: 320px;
+    height: 220px;
     margin: 10px auto;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+}
+.photos-container {
+    margin-bottom: 50px;
 }
 /*----------------------------------------------------------- Book Us Section */
 .booking-container {
-        width: 90%;
+    width: 90%;
 }
 .booking-form {
     background-image: linear-gradient(to right, #bbbdc9, #5b5b5e);
@@ -350,6 +374,16 @@ html, body {
     .booking-container {
         width: 80%;
     }
+    .video-title {
+        margin-left: 10%;
+    }
+    .video-player {
+        width: 80%;
+    }
+    .gallery-img-1, .gallery-img-2, .gallery-img-3 {
+        width: 400px;
+        height: 300px;
+    }
 }
 @media screen and (min-width: 768px) {
     .name {
@@ -376,11 +410,23 @@ html, body {
         font-size: 14px;
     }
     .booking-container {
+        width: 60%;
+    }
+     .video-title {
+        margin-left: 15%;
+    }
+    .video-player {
         width: 70%;
     }
 }
 @media screen and (min-width: 992px) {
     .booking-container {
         width: 50%;
+    }
+     .video-title {
+        margin-left: 20%;
+    }
+    .video-player {
+        width: 60%;
     }
 }
