@@ -286,10 +286,45 @@ html, body {
     display: block;
     margin: 10px auto;
 }
+/*----------------------------------------------------------- Book Us Section */
+.booking-container {
+        width: 90%;
+}
+.booking-form {
+    background-image: linear-gradient(to right, #bbbdc9, #5b5b5e);
+    -webkit-box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.92); 
+    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.92);
+    padding: 30px;
+    border-radius: 5px;
+}
+.lead-styled {
+    text-transform: capitalize;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: 500;
+   
+}
+.event-booking-text {
+    font-size: 13px;
+    word-spacing: 2px;
+    margin-bottom: 40px;
+}
+.form-prompt-text {
+    font-size: 14px;
+}
+.required-field {
+    font-size: 12px;
+}
 /*----------------------------------------------------- Media Queries Section */
 @media screen and (min-width: 576px) {
     .btn-red, .btn-green {
         margin-top: 20px;
+    }
+    .booking-container {
+        width: 80%;
     }
 }
 @media screen and (min-width: 768px) {
@@ -316,5 +351,12 @@ html, body {
         margin-left: 0;
         font-size: 14px;
     }
+    .booking-container {
+        width: 70%;
+    }
 }
-
+@media screen and (min-width: 992px) {
+    .booking-container {
+        width: 50%;
+    }
+}
