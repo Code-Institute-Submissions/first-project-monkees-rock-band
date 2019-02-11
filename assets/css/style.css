@@ -318,6 +318,30 @@ html, body {
 .required-field {
     font-size: 12px;
 }
+/*------------------------------------------------------------ Footer Section */
+.footer {
+    background-image: linear-gradient(to right, #505c70, #050517);
+    color: #d3d5d7;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.social-links a {
+    text-decoration: none;
+}
+.fab {
+    font-size: 18px;
+    color: #d3d5d7;
+    padding: 10px 10px;
+    text-shadow: 1px 1px 5px #000;
+}
+.fab:hover{
+    color: #a4a4a4;
+}
+.copyright {
+    font-size: 12px;
+    padding-top: 10px;
+}
 /*----------------------------------------------------- Media Queries Section */
 @media screen and (min-width: 576px) {
     .btn-red, .btn-green {
