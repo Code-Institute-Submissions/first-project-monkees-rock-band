@@ -85,6 +85,9 @@ html, body {
     box-shadow: none;
 }
 /*------------------------------------------------------------- About Section */
+#about {
+    padding-top: 50px;
+}
 .heading-large:after {
     content: '';
     display: block;
@@ -145,6 +148,15 @@ html, body {
 }
 .indicators-styled .active {
     background-color: rgba(5, 5, 23, 0.5);
+}
+/*---CREDIT: I changed the colour of controls using the code provided here: */
+/*---https://stackoverflow.com/questions/49391266/change-bootstrap-4-carousel-control-colors */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23050517' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23050517' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 /*-------------------------------------------------------------- Tour Section */
 .tour-container {
@@ -392,6 +404,10 @@ html, body {
     }
 }
 @media screen and (min-width: 768px) {
+    .about-text {
+        font-size: 16px;
+        line-height: 30px;
+    }
     .name {
         margin-top: 20px;
     }
