@@ -1,42 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,700|Raleway:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,500,700|Raleway:300,400,500,600');
 
 /*-------------------------------------------------------------- Body Section */
 html, body {
     font-family: 'Open Sans', sans-serif;
-    
 }
 
 /*-------------------------------------------------------------- Home Section */
 /*--- Navigation */
-.bg-dark {
+#home, .bg-dark {
     background-image: linear-gradient(to right, #505c70, #050517);
+}
+.navbar {
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
 }
 .navbar-brand img {
     height: 50px;
-}
-.navbar-brand img:hover {
-    opacity: 0.8;
 }
 .nav-item {
     padding: 0 15px;
     text-transform: uppercase;
 }
-.dropdown-menu, .dropdown-item:hover  {
-    background-color: #b8c2d3;
-}
 .menu-item {
     padding: 5px 10px;
+}
+.navbar-brand img:hover {
+    opacity: 0.8;
+}
+.dropdown-menu, .dropdown-item:hover  {
+    background-color: #b8c2d3;
 }
 .navbar-toggler:focus {
     outline: none;
 }
+.hvr-underline-from-center:before {
+    background-color: #d3d5d7;
+}
 /*--- Banner */
 .banner {
-    background-image: linear-gradient(to right, #505c70, #050517);
     color: #d3d5d7;
     padding: 150px 50px;
 }
-
 .banner-heading-large {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -46,37 +51,38 @@ html, body {
 .banner-heading-small {
     text-transform: uppercase;
     text-shadow: 1px 1px 5px #000;
-    padding-bottom: 20px;
     color: #edbb5f;
 }
 .banner-text {
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 1px;
-    word-spacing: 1px;
-    padding-bottom: 25px;
+    word-spacing: 2px;
+    padding: 25px 0 30px;
+    font-weight: 300;
 }
 .banner-img {
     width: 90%;
     margin-bottom: 50px;
 }
-.btn-outline-secondary {
+.btn-styled {
     border-radius: 50px;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 500;
     width: 120px;
     border-width: 1px;
     text-transform: uppercase;
     margin: 10px;
+}
+.btn-styled:hover {
+    background-image: linear-gradient(to right, #d3d5d7, #73757a);
+    border-color: #6c757d;
+    color: #050517;
 }
 .btn:hover, .btn:focus {
     outline: 0;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-}
-.btn:hover {
-    color: #050517;
-    background-color: #d3d5d7;
-    border-color: #d3d5d7;
 }
 /*------------------------------------------------------------- About Section */
 .heading-large:after {
