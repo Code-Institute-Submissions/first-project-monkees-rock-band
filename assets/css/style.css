@@ -199,9 +199,9 @@ html, body {
     color: #050517;
 }
 .btn-more-info:hover {
-    background-image: linear-gradient(to right, #505c70, #050517);
-    color: #d3d5d7;
-    border-color: #050517;
+    background-image: linear-gradient(to right, #d3d5d7, #73757a);
+    border-color: #6c757d;
+    color: #050517;
 }
 .btn-styled-red, .btn-styled-green {
     margin-top: 30px;
@@ -227,7 +227,6 @@ html, body {
 .media-bg-overlay {
     background-color: rgba(0,0,0,0.8);
 }
-
 /*--- Audio */
 #audio {
     padding-top: 80px;
@@ -250,18 +249,16 @@ html, body {
     margin-bottom: 20px;
     font-size: 22px;
 }
-.album-title span {
+.badge {
     background-color: #edbb5f;
     color: #050517;
     text-transform: uppercase;
     margin-top: 15px;
 }
-.badge {
-    font-size: small;
-}
 .album-description {
     font-size: 12px;
-    word-spacing: 1px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
     width: 300px;
     margin: 10px auto;
 }
@@ -275,11 +272,6 @@ html, body {
     letter-spacing: 1px;
     color: #cecece;;
 }
-.mark {
-    text-transform: uppercase;
-    margin-left: 5px;
-    font-size: 10px;
-}
 .audio {
     height: 30px;
     width: 270px;
@@ -287,11 +279,14 @@ html, body {
     border-radius: 5px;
 }
 .btn-album-buy {
-    margin-top: 30px;
-    width: 120px;
+    margin-top: 50px;
+    margin-left: 0;
     text-transform: uppercase;
 }
-
+.btn-more-albums {
+    color: #d3d5d7;
+    border-color: #d3d5d7;
+}
 /*--- Video */
 #video {
     background-color: rgba(119,119,119,0.2);
