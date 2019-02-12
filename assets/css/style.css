@@ -327,16 +327,18 @@ html, body {
     box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
 }
 .photos-container {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 /*----------------------------------------------------------- Book Us Section */
 .booking-container {
     width: 90%;
 }
 .booking-form {
-    background-image: linear-gradient(to right, #bbbdc9, #5b5b5e);
-    -webkit-box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.92); 
-    box-shadow: 1px 1px 3px 3px rgba(0,0,0,0.92);
+   /* background-image: linear-gradient(to right, #d3d5d7, #73757a);*/
+   background-color: #d3d5d7;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,1);
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,1);
     padding: 30px;
     border-radius: 5px;
 }
