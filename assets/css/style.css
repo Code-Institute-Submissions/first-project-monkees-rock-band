@@ -97,14 +97,14 @@ html, body {
     box-shadow: none;
 }
 /*------------------------------------------------------------- About Section */
-.heading-large:after {
+.main-heading:after {
     content: '';
     display: block;
     width: 100px;
     border: 2px solid #b40101;
     margin: 12px auto;
 }
-.heading-large {
+.main-heading {
     padding: 30px 10px;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
