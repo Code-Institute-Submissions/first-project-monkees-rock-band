@@ -71,7 +71,7 @@ html, body {
     width: 90%;
     margin-bottom: 50px;
 }
-.btn-styled {
+.btn-custom-styled {  
     border-radius: 50px;
     font-size: 14px;
     font-weight: 500;
@@ -82,7 +82,7 @@ html, body {
     color: #bfccd8;
     border-color: #bfccd8;
 }
-.btn-styled:hover {
+.btn-custom-styled:hover {
     background-image: linear-gradient(to right, #d3d5d7, #73757a);
     -webkit-background-image: linear-gradient(to right, #d3d5d7, #73757a);
     -moz-background-image: linear-gradient(to right, #d3d5d7, #73757a);
