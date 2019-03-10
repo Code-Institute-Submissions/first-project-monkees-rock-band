@@ -26,6 +26,11 @@ html, body {
     letter-spacing: 1px;
     word-spacing: 3px;
 }
+.box-shadow {
+    -webkit-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
+    -moz-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
+    box-shadow: 1px 1px 5px 0px rgb(0,0,0);
+}
 /*-------------------------------------------------------------- Home Section */
 /*--- Navigation */
 #home, .bg-dark {
@@ -245,9 +250,6 @@ html, body {
     margin: 15px auto;
     display: block;
     border-radius: 5px;
-    -webkit-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
-    -moz-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
-    box-shadow: 1px 1px 5px 0px rgb(0,0,0);
 }
 .album-title {
     font-family: 'Raleway', sans-serif;
@@ -308,9 +310,6 @@ html, body {
     height: auto;
     display: block;
     margin: 0px auto;
-    -webkit-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
-    -moz-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
-    box-shadow: 1px 1px 5px 0px rgb(0,0,0);
 }
 /*-------------------------------------------------------------------- Photos */
 #photos {
@@ -321,9 +320,6 @@ html, body {
     height: 220px;
     display: block;
     margin: auto;
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0);
-    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0);
-    box-shadow: 1px 1px 5px 0px rgb(0,0,0);
 }
 .gallery-img-box {
     margin: 10px auto;
