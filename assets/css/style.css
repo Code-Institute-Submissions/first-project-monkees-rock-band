@@ -116,14 +116,6 @@ html, body {
     color: #bfccd8;
     border-color: #bfccd8;
 }
-.btn-custom-styled:hover {
-    /*background: linear-gradient(to right, #d3d5d7, #73757a);
-    background: -webkit-linear-gradient(to right, #d3d5d7, #73757a);
-    background: -moz-linear-gradient(to right, #d3d5d7, #73757a);
-    background: -o-linear-gradient(to right, #d3d5d7, #73757a);
-    border-color: #6c757d;
-    color: #050517;*/
-}
 
 /*------------------------------------------------------------- About Section */
 .about-text {
@@ -220,22 +212,14 @@ html, body {
     background-color: transparent;
     color: #050517;
 }
-.btn-more-info:hover {
-    /*background: linear-gradient(to right, #d3d5d7, #73757a);
-    background: -moz-linear-gradient(to right, #d3d5d7, #73757a);
-    background: -webkit-linear-gradient(to right, #d3d5d7, #73757a);
-    background: -o-linear-gradient(to right, #d3d5d7, #73757a);
-    border-color: #6c757d;
-    color: #050517;*/
-}
-.btn-styled-red, .btn-styled-green {
+.btn-red, .btn-green {
     margin-top: 30px;
     font-size: 16px;
     border-radius: 50px;
     width: 135px;
     padding: 7px 5px;
 }
-.btn-styled-green:hover {
+.btn-green:hover {
     background: linear-gradient(to right, #a9f99d, #28a745);
     background: -moz-linear-gradient(to right, #a9f99d, #28a745);
     background: -webkit-linear-gradient(to right, #a9f99d, #28a745);
