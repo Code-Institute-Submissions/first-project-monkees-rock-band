@@ -4,10 +4,28 @@
 html, body {
     font-family: 'Open Sans', sans-serif;
 }
-#about, #tour, #audio, #video, #photos, #book {
+/*---------------------------------------------------------- Reusable Classes */
+.section-top-padding {
     padding-top: 60px;  /* without the top padding main heading disappears behind the fixed navbar */
 }
-
+.text-spacing {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.main-heading:after {
+    content: '';
+    display: block;
+    width: 100px;
+    border: 2px solid #b40101;
+    margin: 12px auto;
+}
+.main-heading {
+    padding: 30px 10px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
 /*-------------------------------------------------------------- Home Section */
 /*--- Navigation */
 #home, .bg-dark {
@@ -62,8 +80,6 @@ html, body {
 }
 .banner-text {
     font-size: 14px;
-    letter-spacing: 1px;
-    word-spacing: 2px;
     padding: 25px 0 30px;
     font-weight: 300;
 }
@@ -97,25 +113,9 @@ html, body {
     box-shadow: none;
 }
 /*------------------------------------------------------------- About Section */
-.main-heading:after {
-    content: '';
-    display: block;
-    width: 100px;
-    border: 2px solid #b40101;
-    margin: 12px auto;
-}
-.main-heading {
-    padding: 30px 10px;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-}
 .about-text {
     font-size: 14px;
     line-height: 26px;
-    letter-spacing: 1px;
-    word-spacing: 2px;
     color: #4d4d4d;
     padding: 10px 20px 30px;
     font-weight: 400;
@@ -168,9 +168,6 @@ html, body {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23050517' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 /*-------------------------------------------------------------- Tour Section */
-#tour {
-    padding-top: 60px;  /* without the top padding heading disappears behind the fixed navbar */
-}
 .tour-container {
     margin-top: 30px;
 }
@@ -255,8 +252,6 @@ html, body {
 }
 .album-title {
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 1px;
-    word-spacing: 2px;
     text-align: center;
     margin-bottom: 20px;
     font-size: 22px;
@@ -269,8 +264,6 @@ html, body {
 }
 .album-description {
     font-size: 12px;
-    word-spacing: 2px;
-    letter-spacing: 1px;
     width: 300px;
     margin: 10px auto;
 }
@@ -349,8 +342,6 @@ html, body {
 }
 .lead-styled {
     text-transform: capitalize;
-    word-spacing: 2px;
-    letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     padding-bottom: 10px;
