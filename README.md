@@ -124,7 +124,10 @@ Dev Tools, iphone X and iPad were used to test the appearance of website on mobi
 * Images and font size changes responsively.
 
 ##### HTML and CSS validator
-HTML and CSS validators were used to validate the code. 
+[HTML](https://validator.w3.org/) and [CSS validators](https://jigsaw.w3.org/css-validator/) were used to validate the code. 
+- HTML validator raised warnings to add heading to *Home* and *Media* section. These warnings were ignored as none of these sections required a main heading.
+- CSS validator raised numerous warnings for codes in the external libraries used in this project. These warnings were ignored!
+- CSS validator raised numerous 'unknown vendor extension' warnings on custom CSS. These prefixes were required for box-shadow and linear-gradient properties to work in old browsers. Hence these warnings were ignored too!
 
 ##### Cross Browser Testing
 - [CanIuse.com](https://caniuse.com/)

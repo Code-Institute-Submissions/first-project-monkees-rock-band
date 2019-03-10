@@ -245,7 +245,6 @@ html, body {
     -webkit-background-image: linear-gradient(to right, #505c70, #050517);
     -moz-background-image: linear-gradient(to right, #505c70, #050517);
     -o-background-image: linear-gradient(to right, #505c70, #050517);
-    
     padding-bottom: 20px;
 }
 .album-cover {
@@ -329,7 +328,7 @@ html, body {
 #photos {
     background-color: #e9ecef;
 }
-.gallery-img-1, .gallery-img-2, .gallery-img-3, .gallery-img-4 {
+.gallery-img {
     width: 320px;
     height: 220px;
     display: block;
@@ -338,7 +337,7 @@ html, body {
     -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0);
     box-shadow: 1px 1px 5px 0px rgb(0,0,0);
 }
-.gallery-img {
+.gallery-img-box {
     margin: 10px auto;
 }
 .photos-container {
@@ -412,7 +411,7 @@ html, body {
     .video-player {
         width: 80%;
     }
-    .gallery-img-1, .gallery-img-2, .gallery-img-3, .gallery-img-4 {
+    .gallery-img {
         width: 250px;
         height: 150px;
     }
@@ -454,7 +453,7 @@ html, body {
     .member-img {
         width: 70%;
     }
-    .gallery-img-1, .gallery-img-2, .gallery-img-3, .gallery-img-4 {
+    .gallery-img-1 {
         width: 280px;
         height: 180px;
     }
@@ -469,7 +468,7 @@ html, body {
     .video-player {
         width: 60%;
     }
-    .gallery-img-1, .gallery-img-2, .gallery-img-3, .gallery-img-4 {
+    .gallery-img {
         width: 350px;
         height: 250px;
     }
