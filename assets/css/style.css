@@ -5,7 +5,7 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 #about, #tour, #audio, #video, #photos, #book {
-    padding-top: 60px;  /* without the top padding heading disappears behind the fixed navbar */
+    padding-top: 60px;  /* without the top padding main heading disappears behind the fixed navbar */
 }
 
 /*-------------------------------------------------------------- Home Section */
@@ -36,9 +36,6 @@ html, body {
 }
 .navbar-brand img:hover {
     opacity: 0.8;
-}
-.dropdown-menu, .dropdown-item:hover  {
-    background-color: #b8c2d3;
 }
 .navbar-toggler:focus {
     outline: none;
@@ -453,7 +450,7 @@ html, body {
     .member-img {
         width: 70%;
     }
-    .gallery-img-1 {
+    .gallery-img {
         width: 280px;
         height: 180px;
     }
