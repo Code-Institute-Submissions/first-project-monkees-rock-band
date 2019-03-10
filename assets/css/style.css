@@ -4,13 +4,22 @@
 html, body {
     font-family: 'Open Sans', sans-serif;
 }
+#about, #tour, #audio, #video, #photos, #book {
+    padding-top: 60px;  /* without the top padding heading disappears behind the fixed navbar */
+}
 
 /*-------------------------------------------------------------- Home Section */
 /*--- Navigation */
 #home, .bg-dark {
     background-image: linear-gradient(to right, #505c70, #050517);
+    -webkit-background-image: linear-gradient(to right, #505c70, #050517);
+    -moz-background-image: linear-gradient(to right, #505c70, #050517);
+    -o-background-image: linear-gradient(to right, #505c70, #050517);
 }
 .navbar {
+    -webkit-box-shadow: 1px 1px 5px 0px rgb(0,0,0);/* Fallback color for browsers that do not support rgba*/
+    -moz-box-shadow: 1px 1px 5px 0px rgb(0,0,0);/* Fallback color for browsers that do not support rgba*/
+    box-shadow: 1px 1px 5px 0px rgb(0,0,0);/* Fallback color for browsers that do not support rgba*/
     -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
     box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.1);
@@ -40,7 +49,7 @@ html, body {
 /*--- Banner */
 .banner {
     color: #d3d5d7;
-    padding: 150px 50px;
+    padding: 100px 50px;
 }
 .banner-heading-large {
     font-family: 'Raleway', sans-serif;
@@ -73,9 +82,14 @@ html, body {
     border-width: 1px;
     text-transform: uppercase;
     margin: 10px;
+    color: #bfccd8;
+    border-color: #bfccd8;
 }
 .btn-styled:hover {
     background-image: linear-gradient(to right, #d3d5d7, #73757a);
+    -webkit-background-image: linear-gradient(to right, #d3d5d7, #73757a);
+    -moz-background-image: linear-gradient(to right, #d3d5d7, #73757a);
+    -o-background-image: linear-gradient(to right, #d3d5d7, #73757a);
     border-color: #6c757d;
     color: #050517;
 }
@@ -86,18 +100,15 @@ html, body {
     box-shadow: none;
 }
 /*------------------------------------------------------------- About Section */
-#about {
-    padding-top: 50px;
-}
 .heading-large:after {
     content: '';
     display: block;
     width: 100px;
     border: 2px solid #b40101;
-    margin: 15px auto;
+    margin: 12px auto;
 }
 .heading-large {
-    padding: 50px 10px 40px;
+    padding: 30px 10px;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -113,7 +124,7 @@ html, body {
     font-weight: 400;
 }
 .jumbotron-styled {
-    padding: 100px 0;
+    padding: 40px 0 80px;
     border-radius: 0;
 }
 .member-img {
@@ -131,12 +142,11 @@ html, body {
 }
 .fa-quote-left {
     color: #b40101;
-    font-size: 30px;
+    font-size: 29px;
     padding-top: 20px;
 }
 .quote {
-    font-size: 18px;
-    padding: 10px;
+    font-size: 17px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     word-spacing: 2px;
@@ -145,10 +155,11 @@ html, body {
     bottom: -70px;
 }
 .indicators-styled li {
-    background-color: rgba(5, 5, 23, 1);
+    background-color: rgb(5, 5, 23);
 }
 .indicators-styled .active {
-    background-color: rgba(5, 5, 23, 0.5);
+    background-color: rgb(5, 5, 23);
+    opacity: 0.5;
 }
 /*---CREDIT: I changed the colour of controls using the code provided here: */
 /*---https://stackoverflow.com/questions/49391266/change-bootstrap-4-carousel-control-colors */
@@ -161,13 +172,13 @@ html, body {
 }
 /*-------------------------------------------------------------- Tour Section */
 #tour {
-    padding-top: 50px;
+    padding-top: 60px;  /* without the top padding heading disappears behind the fixed navbar */
 }
 .tour-container {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 .tour-info div {
-    margin: 25px auto;
+    margin: 5px auto;
 }
 .calendar-date {
     width: 100px;
@@ -178,6 +189,9 @@ html, body {
     font-size: 14px;
     padding-top: 8px;
     margin: 0 auto;
+    -webkit-box-shadow: 1px 1px 5px 0px rgb(0,0,0);/* Fallback color for browsers that do not support rgba*/
+    -moz-box-shadow: 1px 1px 5px 0px rgb(0,0,0);/* Fallback color for browsers that do not support rgba*/
+    box-shadow: 1px 1px 5px 0px rgb(0,0,0);/* Fallback color for browsers that do not support rgba*/
    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.6);
     -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.6);
     box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.6);
@@ -186,14 +200,14 @@ html, body {
     font-size: 30px;
     font-weight: 600;
 }
-.tour-info div:nth-child(2) {
+.venue {
     padding-top: 15px;
 }
 .btn-more-info {
     width: 300px;
     font-size: 18px;
     text-transform: uppercase;
-    margin: 100px auto 50px;
+    margin: 50px auto;
     padding: 15px;
     display: block;
     background-color: transparent;
@@ -201,6 +215,9 @@ html, body {
 }
 .btn-more-info:hover {
     background-image: linear-gradient(to right, #d3d5d7, #73757a);
+    -moz-background-image: linear-gradient(to right, #d3d5d7, #73757a);
+    -webkit-background-image: linear-gradient(to right, #d3d5d7, #73757a);
+    -o-background-image: linear-gradient(to right, #d3d5d7, #73757a);
     border-color: #6c757d;
     color: #050517;
 }
@@ -213,34 +230,32 @@ html, body {
 }
 .btn-styled-green:hover {
     background-image: linear-gradient(to right, #a9f99d, #28a745);
+    -moz-background-image: linear-gradient(to right, #a9f99d, #28a745);
+    -webkit-background-image: linear-gradient(to right, #a9f99d, #28a745);
+    -o-background-image: linear-gradient(to right, #a9f99d, #28a745);
     color: #050517;
     font-weight:600;
     border-color: #a9f99d;
 }
-/*------------------------------------------------------------- Media Section */
-#media {
-    background-image: url('/assets/images/string-background-image.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.media-bg-overlay {
-    background-color: rgba(0,0,0,0.8);
-}
-/*--- Audio */
+
+/*--------------------------------------------------------------------- Audio */
 #audio {
-    padding-top: 80px;
     color: #d3d5d7;
+    background-image: linear-gradient(to right, #505c70, #050517);
+    -webkit-background-image: linear-gradient(to right, #505c70, #050517);
+    -moz-background-image: linear-gradient(to right, #505c70, #050517);
+    -o-background-image: linear-gradient(to right, #505c70, #050517);
+    
+    padding-bottom: 20px;
 }
 .album-cover {
     width: 300px;
     margin: 15px auto;
     display: block;
     border-radius: 5px;
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
-    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
-    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
+    -moz-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
+    box-shadow: 1px 1px 5px 0px rgb(0,0,0);
 }
 .album-title {
     font-family: 'Raleway', sans-serif;
@@ -288,12 +303,9 @@ html, body {
     color: #d3d5d7;
     border-color: #d3d5d7;
 }
-/*--- Video */
+/*--------------------------------------------------------------------- Video */
 #video {
-    background-color: rgba(119,119,119,0.2);
-    color: #d3d5d7;
     padding-bottom: 40px;
-    padding-top: 50px;
 }
 .video-container {
     margin-bottom: 40px;
@@ -309,39 +321,35 @@ html, body {
     height: auto;
     display: block;
     margin: 0px auto;
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
-    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
-    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
+    -webkit-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
+    -moz-box-shadow: 1px 1px 5px 0px rgb(0,0,0);
+    box-shadow: 1px 1px 5px 0px rgb(0,0,0);
 }
-/*--- Photos */
+/*-------------------------------------------------------------------- Photos */
 #photos {
-    padding-top: 50px;
-    margin-bottom: 50px;
-    color: #d3d5d7;
+    background-color: #e9ecef;
 }
-.gallery-img-1, .gallery-img-2, .gallery-img-3 {
+.gallery-img-1, .gallery-img-2, .gallery-img-3, .gallery-img-4 {
     width: 320px;
     height: 220px;
+    display: block;
+    margin: auto;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0);
+    box-shadow: 1px 1px 5px 0px rgb(0,0,0);
+}
+.gallery-img {
     margin: 10px auto;
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
-    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
-    box-shadow: 1px 1px 5px 0px rgba(0,0,0,1);
 }
 .photos-container {
     padding-bottom: 50px;
 }
 /*----------------------------------------------------------- Book Us Section */
 .booking-container {
-    width: 90%;
+    width: 95%;
 }
-.booking-form {
-   /* background-image: linear-gradient(to right, #d3d5d7, #73757a);*/
-   background-color: #d3d5d7;
-    -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,1);
-    -moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,1);
-    box-shadow: 1px 1px 5px 1px rgba(0,0,0,1);
-    padding: 30px;
-    border-radius: 5px;
+.form-content {
+    padding: 20px;
 }
 .lead-styled {
     text-transform: capitalize;
@@ -351,7 +359,6 @@ html, body {
     font-size: 20px;
     padding-bottom: 10px;
     font-weight: 500;
-   
 }
 .event-booking-text {
     font-size: 13px;
@@ -367,6 +374,9 @@ html, body {
 /*------------------------------------------------------------ Footer Section */
 .footer {
     background-image: linear-gradient(to right, #505c70, #050517);
+    -webkit-background-image: linear-gradient(to right, #505c70, #050517);
+    -moz-background-image: linear-gradient(to right, #505c70, #050517);
+    -o-background-image: linear-gradient(to right, #505c70, #050517);
     color: #d3d5d7;
     margin-top: 50px;
     padding-top: 20px;
@@ -402,9 +412,9 @@ html, body {
     .video-player {
         width: 80%;
     }
-    .gallery-img-1, .gallery-img-2, .gallery-img-3 {
-        width: 400px;
-        height: 300px;
+    .gallery-img-1, .gallery-img-2, .gallery-img-3, .gallery-img-4 {
+        width: 250px;
+        height: 150px;
     }
 }
 @media screen and (min-width: 768px) {
@@ -421,10 +431,7 @@ html, body {
         justify-content: center;
     }
     .quote {
-       padding: 25px; 
-    }
-    .member-img {
-        width: 70%;
+       padding: 25px;
     }
     .album-title {
         text-align: left;
@@ -444,6 +451,13 @@ html, body {
     .video-player {
         width: 70%;
     }
+    .member-img {
+        width: 70%;
+    }
+    .gallery-img-1, .gallery-img-2, .gallery-img-3, .gallery-img-4 {
+        width: 280px;
+        height: 180px;
+    }
 }
 @media screen and (min-width: 992px) {
     .booking-container {
@@ -454,5 +468,9 @@ html, body {
     }
     .video-player {
         width: 60%;
+    }
+    .gallery-img-1, .gallery-img-2, .gallery-img-3, .gallery-img-4 {
+        width: 350px;
+        height: 250px;
     }
 }

@@ -12,7 +12,7 @@
 </head>
 <body>
     <!--- Home Section -->
-    <div id="home">
+    <section id="home">
         <!--- Navigation -->
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="#home"><img src="/assets/images/monkees-logo.png" alt="monkees logo"/></a>
@@ -45,7 +45,7 @@
             </div>
         </nav>
         <!--- Banner -->
-        <section class="banner text-center">
+        <div class="banner text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6"><img class="banner-img" src="assets/images/monkees.png" alt="monkees band"></div>
@@ -59,13 +59,13 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
     <!--- About Section -->
-    <div id="about">
+    <section id="about">
         <!--- Band information -->
         <div class="container text-center">
-            <h1 class="heading-large">About Us</h1>
+            <h2 class="heading-large">About Us</h2>
             <p class="about-text">The Monkees were an American pop-rock band. The band was created 
             originally for a comedy television series of the same name which aired 
             on NBC, from 1966 to 1968. The members of the group were Davy Jones, 
@@ -78,67 +78,75 @@
         </div>
         <!--- Carousel -->
         <section class="jumbotron text-center jumbotron-styled">
-            <div id="band-members" class="carousel slide" data-ride="carousel">
+            <div id="band-members" class="carousel slide " data-ride="carousel" >
                 <div class="carousel-inner">
-                    <div class="carousel-item active container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-5">
-                                <img class="member-img img-fluid rounded-circle" src="assets/images/davy-jones.jpg" alt="davy jones">
+                    <div class="carousel-item active ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-5">
+                                    <img class="member-img img-fluid rounded-circle" src="assets/images/davy-jones.jpg" alt="davy jones">
+                                </div>
+                                <div class="col-xs-12 col-md-7">
+                                    <h5 class="name">Davy Jones</h5>
+                                    <h6 class="title">Singer</h6>
+                                    <blockquote class="quote-wrapper">
+                                        <i class="fas fa-quote-left" aria-hidden="true"></i>
+                                        <p class="quote">Once a Monkee, always a Monkee.</p>
+                                    </blockquote>
+                                </div>
                             </div>
-                            <div class="col-xs-12 col-md-7">
-                                <h4 class="name">Davy Jones</h4>
-                                <h6 class="title">Singer</h6>
-                                <blockquote class="quote-wrapper">
-                                    <i class="fas fa-quote-left"></i>
-                                    <p class="quote">Once a Monkee, always a Monkee.</p>
-                                </blockquote>
-                            </div>
-                        </div>
+                        </div>    
                     </div>
-                    <div class="carousel-item container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-5">
-                                <img class="member-img img-fluid rounded-circle" src="assets/images/michael-nesmith.jpg" alt="michael-nesmith">
+                    <div class="carousel-item ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-5">
+                                    <img class="member-img img-fluid rounded-circle" src="assets/images/michael-nesmith.jpg" alt="michael-nesmith">
+                                </div>
+                                <div class="col-xs-12 col-md-7">
+                                    <h5 class="name">Michael Nesmith</h5>
+                                    <h6 class="title">Singer</h6>
+                                    <blockquote class="quote-wrapper">
+                                        <i class="fas fa-quote-left" aria-hidden="true"></i>
+                                        <p class="quote">If you love music, you can play music.</p>
+                                    </blockquote>
+                                </div>
                             </div>
-                            <div class="col-xs-12 col-md-7">
-                                <h4 class="name">Michael Nesmith</h4>
-                                <h6 class="title">Singer</h6>
-                                <blockquote class="quote-wrapper">
-                                    <i class="fas fa-quote-left"></i>
-                                    <p class="quote">If you love music, you can play music.</p>
-                                </blockquote>
-                            </div>
-                        </div>
+                        </div>    
                     </div>
-                    <div class="carousel-item container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-5">
-                                <img class="member-img img-fluid rounded-circle" src="assets/images/micky-dolenz.jpg" alt="micky-dolenz">
+                    <div class="carousel-item ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-5">
+                                    <img class="member-img img-fluid rounded-circle" src="assets/images/micky-dolenz.jpg" alt="micky-dolenz">
+                                </div>
+                                <div class="col-xs-12 col-md-7">
+                                    <h5 class="name">Micky Dolenz</h5>
+                                    <h6 class="title">Singer</h6>
+                                    <blockquote class="quote-wrapper">
+                                        <i class="fas fa-quote-left" aria-hidden="true"></i>
+                                        <p class="quote">I was an entertainer, ever since I was a kid.</p>
+                                    </blockquote>
+                                </div>
                             </div>
-                            <div class="col-xs-12 col-md-7">
-                                <h4 class="name">Micky Dolenz</h4>
-                                <h6 class="title">Singer</h6>
-                                <blockquote class="quote-wrapper">
-                                    <i class="fas fa-quote-left"></i>
-                                    <p class="quote">I was an entertainer, ever since I was a kid.</p>
-                                </blockquote>
-                            </div>
-                        </div>
+                        </div>    
                     </div>
-                    <div class="carousel-item container">
-                        <div class="row">
-                            <div class="col-xs-12 col-md-5">
-                                <img class="member-img img-fluid rounded-circle" src="assets/images/peter-tork.jpg" alt="peter-tork">
+                    <div class="carousel-item ">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-5">
+                                    <img class="member-img img-fluid rounded-circle" src="assets/images/peter-tork.jpg" alt="peter-tork">
+                                </div>
+                                <div class="col-xs-12 col-md-7">
+                                    <h5 class="name">Peter Tork</h5>
+                                    <h6 class="title">Singer</h6>
+                                    <blockquote class="quote-wrapper">
+                                        <i class="fas fa-quote-left" aria-hidden="true"></i>
+                                        <p class="quote">Yes, I am a good singer.</p>
+                                    </blockquote>
+                                </div>
                             </div>
-                            <div class="col-xs-12 col-md-7">
-                                <h4 class="name">Peter Tork</h4>
-                                <h6 class="title">Singer</h6>
-                                <blockquote class="quote-wrapper">
-                                    <i class="fas fa-quote-left"></i>
-                                    <p class="quote">Yes, I am a good singer.</p>
-                                </blockquote>
-                            </div>
-                        </div>
+                        </div>    
                     </div>
                 </div>
                 <ol class="carousel-indicators indicators-styled">
@@ -157,44 +165,44 @@
                 </a>
             </div>
         </section>
-    </div>
+    </section>
     <!--- Tour Section -->
-    <div id="tour">
-        <h1 class="text-center heading-large">Tour Dates</h1>
+    <section id="tour">
+        <h2 class="text-center heading-large">Tour Dates</h2>
         <section>
             <div class="tour-container container text-center">
                 <div class="row tour-info">
                     <div class="col-sm-4"><p class="calendar-date rounded">Sat<br><span class="date">2</span><br>Mar</p></div>
-                    <div class="col-sm-4"><h4>Ocean Resort Casino</h4><h6>Atlantic City, NJ</h6><p>20:00</p></div>
+                    <div class="col-sm-4 venue"><h5>Ocean Resort Casino</h5><h6>Atlantic City, NJ</h6><p>20:00</p></div>
                     <div class="col-sm-4"><a href="https://www.axs.com/uk/events/366849/the-monkees-tickets" target="_blank" role="button" class="btn btn-outline-danger btn-styled-red disabled" aria-disabled="true">SOLD OUT</a></div>
                 </div>
                 <hr>
                 <div class="row tour-info">
                     <div class="col-sm-4"><p class="calendar-date rounded">Wed<br><span class="date">6</span><br>Mar</p></div>
-                    <div class="col-sm-4"><h4>Keswick Theatre</h4><h6>Glenside, PA</h6><p>20:00</p></div>
+                    <div class="col-sm-4 venue"><h5>Keswick Theatre</h5><h6>Glenside, PA</h6><p>20:00</p></div>
                     <div class="col-sm-4"><a href="https://www.axs.com/uk/events/350448/the-monkees-tickets" target="_blank" role="button" class="btn btn-outline-success btn-styled-green">BUY TICKETS</a></div>
                 </div>
                 <hr>
                 <div class="row tour-info">
                     <div class="col-sm-4"><p class="calendar-date rounded">Tue<br><span class="date">12</span><br>Mar</p></div>
-                    <div class="col-sm-4"><h4>Royal Oak Music Theatre</h4><h6>Royal Oak, M1</h6><p>19:00</p></div>
+                    <div class="col-sm-4 venue"><h5>Royal Oak Music Theatre</h5><h6>Royal Oak, M1</h6><p>19:00</p></div>
                     <div class="col-sm-4"><a href="https://www.axs.com/uk/events/364294/the-monkees-tickets" target="_blank" role="button" class="btn btn-outline-success btn-styled-green">BUY TICKETS</a></div>
                 </div>
                 <hr>
             </div>
             <a href="https://www.songkick.com/artists/485568-monkees/calendar" target ="_blank" class="btn btn-dark btn-more-info" role="button">View all tour dates</a>
         </section>
-    </div>
+    </section>
     <!--- Media Section -->
-    <div id="media">
+    <section id="media">
         <div class="media-bg-overlay">
             <!--- Audio -->
-            <div id="audio">
-                <h1 class="text-center heading-large">Audio</h1>
+            <section id="audio">
+                <h2 class="text-center heading-large">Audio</h2>
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-md-5">
-                             <img class="album-cover img-fluid" src="/assets/images/album-cover-1.jpg" alt="album cover">
+                             <img class="album-cover img-fluid" src="/assets/images/album-cover.jpg" alt="album cover">
                         </div>
                         <div class="col-xs-12 col-md-7">
                             <h5 class="album-title">Christmas Party (2018) <span class="badge badge-secondary">New</span></h5>
@@ -210,63 +218,74 @@
                     </div>
                     <a href="https://monkeesstore.warnermusic.com/music.html" target ="_blank" class="btn btn-dark btn-more-info btn-more-albums" role="button">View other albums</a>
                 </div>
-            </div>
+            </section>
             <!--- Video -->
-            <div id="video">
-                <h1 class="text-center heading-large">Video</h1>
+            <section id="video">
+                <h2 class="text-center heading-large">Video</h2>
                 <div class="video-container">
                     <p class= "video-title">Daydream Believer</p>
                     <video class="video-player img-fluid" poster="/assets/images/monkees-bg-img.jpg" controls>
                         <source src="/assets/video/TheMonkees.mp4" type="video/mp4">
                     </video>
                 </div>
-            </div>
+            </section>
             <!--- Photos -->
-            <div id="photos">
-                <h1 class="text-center heading-large">Photos</h1>
+            <section id="photos">
+                <h2 class="text-center heading-large">Photos</h2>
                 <div class="container photos-container">
                     <div class="row">
-                        <img class="gallery-img-1" src="/assets/images/gallery-image-1.jpg" alt="event picture">
-                        <img class="gallery-img-2" src="/assets/images/gallery-image-2.jpg" alt="event picture">
-                        <img class="gallery-img-3" src="/assets/images/gallery-image-3.jpg" alt="event picture">
+                        <div class="col-sm-5 col-md-5 col-lg-6 gallery-img">
+                            <img class="gallery-img-1" src="/assets/images/gallery-image-1.jpg" alt="event picture">
+                        </div>
+                        <div class="col-sm-5 col-lg-6 gallery-img">
+                            <img class="gallery-img-2" src="/assets/images/gallery-image-2.jpg" alt="event picture">
+                        </div>
+                        <div class="col-sm-5 col-lg-6 gallery-img">
+                            <img class="gallery-img-3" src="/assets/images/gallery-image-3.jpg" alt="event picture">
+                        </div>
+                        <div class="col-sm-5 col-lg-6 gallery-img">
+                            <img class="gallery-img-4" src="/assets/images/gallery-image-4.jpg" alt="event picture">
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
-    </div>
+    </section>
     <!--- Booking Section -->
     <div id="book">
         <div class="container booking-container">
-            <h1 class="text-center heading-large">Book us</h1>
-            <div class="booking-form">
-                <p class="lead lead-styled text-center">Celebrating something special? </p>
-                <p class="event-booking-text"> A special occasion deserves a special band. So whether you’re celebrating a birthday, anniversary, engagement or any other magical milestone, trust us to put on a party to remember.</p>
-                <p class="form-prompt-text">Get in touch by filling the form below.</p>
-                <form action="#">
-                <div class="form-group">
-                    <label for="name" class="sr-only">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required>
+            <h2 class="text-center heading-large">Book us</h2>
+            <div>
+                <div class="form-content">
+                    <p class="lead lead-styled text-center">Celebrating something special? </p>
+                    <p class="event-booking-text"> A special occasion deserves a special band. So whether you’re celebrating a birthday, anniversary, engagement or any other magical milestone, trust us to put on a party to remember.</p>
+                    <p class="form-prompt-text">Get in touch by filling the form below.</p>
+                    <form action="#">
+                    <div class="form-group">
+                        <label for="name" class="sr-only">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name*" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required>
+                    </div>
+                     <div class="form-group">
+                        <label for="comment" class="sr-only">Comment/Enquiry:</label>
+                        <textarea class="form-control" rows="4" id="comment" placeholder="Write your message here*" required></textarea>
+                    </div>
+                    <p class="required-field">* Required fields</p>
+                    <button type="submit" class="btn btn-success btn-lg btn-block">Submit</button>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="email" class="sr-only">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email*" required>
-                </div>
-                 <div class="form-group">
-                    <label for="comment" class="sr-only">Comment/Enquiry:</label>
-                    <textarea class="form-control" rows="5" id="comment" placeholder="Write your message here*" required></textarea>
-                </div>
-                <p class="required-field">* Required fields</p>
-                <button type="submit" class="btn btn-success btn-lg btn-block">Submit</button>
-                </form>
             </div>
         </div>
     </div>
     <!--- Footer Section -->
     <footer class="footer">
         <div class="social-links text-center">
-            <a href="https://www.youtube.com/user/themonkees" class="hvr-icon-float"><i class="fab fa-youtube hvr-icon" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/themonkees?lang=en" class="hvr-icon-float"><i class="fab fa-twitter hvr-icon" aria-hidden="true"></i></a>
-            <a href="https://en-gb.facebook.com/TheMonkees/" class="hvr-icon-float"><i class="fab fa-facebook-f hvr-icon" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/user/themonkees" target="_blank" class="hvr-icon-float"><i class="fab fa-youtube hvr-icon" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/themonkees?lang=en" target="_blank" class="hvr-icon-float"><i class="fab fa-twitter hvr-icon" aria-hidden="true"></i></a>
+            <a href="https://en-gb.facebook.com/TheMonkees/" target="_blank" class="hvr-icon-float"><i class="fab fa-facebook-f hvr-icon" aria-hidden="true"></i></a>
         </div>
         <p class="text-center copyright">&copy; 2019 The Monkees. All rights reserved.</p>
     </footer>
