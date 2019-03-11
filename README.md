@@ -1,7 +1,7 @@
 ![The Monkees Logo](https://static1.squarespace.com/static/583863c1e6f2e1216884123c/t/5a26b3f124a694f272e8be3d/1512495829597/Monkees_red.jpg)
 
 # The Monkees
-This website is my first Milestone project in Full Stack web developer course run by Code Institute. 
+This [website](https://maria-mir.github.io/first-project-monkees-rock-band/) is my first Milestone project in Full Stack web developer course run by Code Institute. 
 The website is designed to showcase the music of 1960's rock band **'The Monkees'** and publicise their availability to perform at events such as 
 weddings and Christmas parties.
 
@@ -149,7 +149,8 @@ Wherever possible following things were taken into consideration to make website
 
 
 ## Deployment
-*Github pages* was used to deploy the project.
+*Github pages* was used to deploy the [project](https://maria-mir.github.io/first-project-monkees-rock-band/).
+Some image did not appear after deployment. Those image sources were found to have '\' in the beginning. It was removed to fix the issue.
 
 ## Credits
 
