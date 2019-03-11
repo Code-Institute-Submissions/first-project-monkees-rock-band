@@ -150,7 +150,7 @@ Wherever possible following things were taken into consideration to make website
 
 ## Deployment
 *Github pages* was used to deploy the [project](https://maria-mir.github.io/first-project-monkees-rock-band/).
-Some image did not appear after deployment. Those image sources were found to have '\' in the beginning. It was removed to fix the issue.
+Some images did not appear after deployment. Those image sources were found to have / in the beginning. It was removed to fix the issue.
 
 ## Credits
 
