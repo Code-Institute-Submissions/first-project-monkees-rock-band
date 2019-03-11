@@ -15,7 +15,7 @@ As part of the design process, wireframes were created using *Pencil* software. 
 I want to use the website to preview and buy latest albums.
 
 ###### User Story 2
-As a die-hard fan of the rock band *The Monkees*, I would like to know about the upcoming events. I would
+As a die-hard fan of the rock band, I would like to know about the upcoming events. I would
 also like to follow them on social media.
 
 ###### User Story 3
@@ -33,9 +33,9 @@ I have used following features to meet different user needs:
 * Contact Us Page - allows User 3 to fill in the form to make an enquiry about bands availability to perform on an event.
 
 #### Features Left to Implement
-* Option to subscribe to newsletter could be added for User 2.
-* Audio player could be designed for audio page to improve User 1 experience.
-* Previous customer testimonials could be added for User 3 interest.
+* Subscribe to newsletter option can be added for User 2.
+* Audio player can be designed better to improve User 1 experience.
+* Previous customer testimonials can be added for User 3 interest.
 
 ## Technologies Used
 
@@ -126,8 +126,8 @@ Dev Tools, iphone X and iPad were used to test the appearance of website on mobi
 ##### HTML and CSS validator
 [HTML](https://validator.w3.org/) and [CSS validators](https://jigsaw.w3.org/css-validator/) were used to validate the code. 
 - HTML validator raised warning to add heading to *Home* section. The warning is ignored as the section does not require a main heading.
-- CSS validator raised numerous warnings for codes in the external libraries used in this project. These warnings were ignored!
-- CSS validator raised numerous 'unknown vendor extension' warnings on custom CSS. These prefixes were required for box-shadow and linear-gradient properties to work in old browsers. Hence these warnings were ignored too!
+- CSS validator raised numerous warnings for codes in the external libraries used in this project. These warnings are ignored!
+- CSS validator raised numerous 'unknown vendor extension' warnings on code in CSS stylesheet style.css. Prefixes are required for box-shadow, flex and linear-gradient properties to work in old browsers. Hence these warnings are ignored too!
 
 ##### Cross Browser Testing
 - [CanIuse.com](https://caniuse.com/)
@@ -136,20 +136,20 @@ Dev Tools, iphone X and iPad were used to test the appearance of website on mobi
 - The website was tested to function as expected on following browsers:
   - Chrome
   - Firefox
-  - IE
-  - Edge
+  - IE (Monkees logo image appears pixelated and there is a slight glitch in the slideshow for unknown reason)
+  - Edge (slight glitch in the slideshow for unknown reason)
   - Safari
   
 ##### Accessibility / Screen Reader Application Testing
 
-Wherever possible following things were taken into consideration to design the website as accessible as possible:
+Wherever possible following things were taken into consideration to make website as accessible as possible:
 - Aria-hidden = true is used with fonts awesome to hide the fonts from screen readers.
 - Form labels are hidden for design purposes but bootstrap class 'sr-only' is used to make it visible for screen readers.
 - Alt attribute is used for images.
 
 
 ## Deployment
-I used *Github pages* to deploy my website.
+*Github pages* was used to deploy the project.
 
 ## Credits
 
@@ -165,6 +165,8 @@ I used *Github pages* to deploy my website.
 - [Htmlburger](https://htmlburger.com/#) website inspired me to add carousel for about us page.
 - [Wrapbootstrap](http://wrapbootstrap.com/preview/WB059347H) website helped me design landing page.
 
+##### Code by others
+- The code in [Stackoverflow](https://stackoverflow.com/questions/49391266/change-bootstrap-4-carousel-control-colors) was used to change carousel controls colour.
 
 #### Acknowledgements
 - I would like to thank my tutor Antonija Simic for all her help and support during the development of this project.   
