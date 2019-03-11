@@ -256,28 +256,23 @@ html, body {
     width: 300px;
     margin: 10px auto;
 }
-.hr-styled {
+.hr {
     background-color: grey;
     margin-top: 20px;
     margin-bottom: 25px;
 }
-.song-title {
-    font-size: 14px;
-    letter-spacing: 1px;
-    color: #cecece;;
-}
-.audio {
+.audio-player {
     height: 30px;
     width: 270px;
     display: block;
     border-radius: 5px;
 }
-.btn-album-buy {
+.btn-buy {
     margin-top: 50px;
     margin-left: 0;
     text-transform: uppercase;
 }
-.btn-more-albums {
+.btn-color {
     color: #d3d5d7;
     border-color: #d3d5d7;
 }
@@ -323,18 +318,18 @@ html, body {
 .form-content {
     padding: 20px;
 }
-.lead-styled {
+.lead-custom-styled {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     padding-bottom: 10px;
     font-weight: 500;
 }
-.event-booking-text {
+.info-text {
     font-size: 13px;
     word-spacing: 2px;
     margin-bottom: 40px;
 }
-.form-prompt-text {
+.prompt-text {
     font-size: 14px;
 }
 .required-field {
